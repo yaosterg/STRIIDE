@@ -1,0 +1,74 @@
+.adminpage-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adminpage-left {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.adminpage-right {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.admin-product-icon {
+  width: 30%;
+  word-wrap: break-word;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(196, 196, 196, 0.2);
+  box-shadow: 8px 8px 12px #bbbbbb;
+}
+
+.admin-product-icon:hover {
+  box-shadow: 8px 8px 12px #3f1616;
+}
+
+.admin-management-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.admin-management-page-left {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 8px 8px 12px rgba(123, 118, 118, 0.3);
+  word-wrap: break-word;
+  width: 30%;
+
+  font-weight: 500;
+  color: #8d8282;
+  opacity: 0.7;
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.admin-management-page-right {
+  /* margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  background: rgba(188, 184, 184, 0.2);
+  box-shadow: 8px 8px 12px #030303;
+  width: 25%; */
+}
+
+.adduser-container-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.test-form-container {
+  justify-content: center;
+}

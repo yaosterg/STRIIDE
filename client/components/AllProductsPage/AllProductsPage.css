@@ -1,0 +1,78 @@
+.allproducts-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allproduct-left {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.left-top,
+.sort-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.size-filter,
+.color-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+  margin: 2px;
+}
+
+.size-filter > button {
+  width: 35px;
+  height: 35px;
+  margin: 2px;
+  align-items: center;
+  font-size: x-small;
+}
+
+.allproducts-right {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.allproducts-product-icon {
+  width: 30%;
+  word-wrap: break-word;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(196, 196, 196, 0.2);
+  box-shadow: 8px 8px 12px #bbbbbb;
+}
+
+.allproducts-product-icon:hover {
+  box-shadow: 8px 8px 12px #3f1616;
+}
+
+.bottom {
+  font-size: small;
+  line-height: 0.1em;
+}
+
+.allproducts-right-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.allproducts-right-lower {
+  align-content: center;
+  margin: 30px;
+}
+
+#shoesize {
+  background-color: #797777;
+}
+
+#sizeTag {
+  font-weight: bold;
+}
